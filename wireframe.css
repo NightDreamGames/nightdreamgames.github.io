@@ -371,6 +371,15 @@ template {
   display: none !important;
 }
 
+@media (min-height: 900px) {
+  .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
 h1,
 h2,
 h3,
