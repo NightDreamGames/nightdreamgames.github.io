@@ -5903,6 +5903,10 @@ button.bg-success:focus {
   background-color: #a3a3a3 !important;
 }
 
+.copyright{
+  color:#a3a3a3 !important;
+}
+
 a.bg-info:hover,
 a.bg-info:focus,
 button.bg-info:hover,
