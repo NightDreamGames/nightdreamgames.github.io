@@ -1,23 +1,10 @@
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #cdcdcd;
   --secondary: #b0b0b0;
-  --success: #28a745;
   --info: #8e8e8e;
-  --warning: #ffc107;
-  --danger: #dc3545;
   --light: #eaeaea;
   --dark: #555555;
   --breakpoint-xs: 0;
@@ -25,11 +12,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
 }
 *,
 ::after,
@@ -63,6 +45,18 @@ h1,
 h4 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+h5 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 p {
   margin-top: 0;
@@ -101,7 +95,7 @@ button,
 html [type="button"] {
   -webkit-appearance: button;
 }
-@media (min-height: 1000px) {
+@media (min-height: 950px) {
   .footer {
     position: fixed;
     left: 0;
@@ -611,22 +605,6 @@ h4 {
   text-decoration: none;
   opacity: 0.75;
 }
-@supports (
-  (-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)
-) {
-}
-@supports (
-  (-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)
-) {
-}
-@supports (
-  (-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)
-) {
-}
-@supports (
-  (-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)
-) {
-}
 .bg-primary {
   background-color: #fdfbf0 !important;
 }
@@ -664,8 +642,6 @@ h4 {
 }
 .align-self-center {
   align-self: center !important;
-}
-@supports ((position: -webkit-sticky) or (position: sticky)) {
 }
 .mb-0 {
   margin-bottom: 0 !important;
