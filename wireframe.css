@@ -1,3 +1,67 @@
+.logo {
+  width: 100px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 5px #888;
+}
+.logoBottom {
+  display: none !important;
+}
+.logoTop {
+  display: block !important;
+}
+.logoSmall {
+  margin-left: 20px;
+}
+.lineRight {
+  border-right: 2px solid #aaaaaa;
+  height: 160px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+.lineLeft {
+  border-left: 2px solid #aaaaaa;
+  height: 160px;
+  margin-left: 25px;
+  margin-right: 35px;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    width: 210px;
+  }
+  .logoBottom {
+    display: block !important;
+  }
+  .logoTop {
+    display: none !important;
+  }
+  .logoSmall {
+    margin-left: initial;
+  }
+}
+@media (min-width: 1200px) {
+  .lineRight {
+    margin-left: 20px;
+    margin-right: 45px;
+  }
+  .lineLeft {
+    margin-left: 25px;
+    margin-right: 65px;
+  }
+}
+@media (min-height: 950px) {
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
 :root {
   --white: #fff;
   --gray: #6c757d;
@@ -95,14 +159,6 @@ button,
 html [type="button"] {
   -webkit-appearance: button;
 }
-@media (min-height: 950px) {
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-}
 h1,
 h4 {
   margin-bottom: 0.5rem;
@@ -118,32 +174,6 @@ h1 {
 }
 h4 {
   font-size: 1.5rem;
-}
-.logos {
-  width: 100px;
-  border-radius: 15%;
-  box-shadow: 4px 4px 5px #888;
-}
-.logoBottom {
-  display: none !important;
-}
-.logoTop {
-  display: block !important;
-}
-.logoSmall {
-  margin-left: 20px;
-}
-.lineRight {
-  border-right: 2px solid #aaaaaa;
-  height: 160px;
-  margin-left: 35px;
-  margin-right: 25px;
-}
-.lineLeft {
-  border-left: 2px solid #aaaaaa;
-  height: 160px;
-  margin-left: 25px;
-  margin-right: 35px;
 }
 .lead {
   font-size: 1.3rem;
@@ -187,14 +217,6 @@ h4 {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-  }
-  .lineRight {
-    margin-left: 20px;
-    margin-right: 45px;
-  }
-  .lineLeft {
-    margin-left: 25px;
-    margin-right: 65px;
   }
 }
 .row {
@@ -562,12 +584,6 @@ h4 {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
-@media (max-width: 767.98px) {
-  .navbar-expand-md > .container {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 @media (min-width: 768px) {
   .navbar-expand-md {
     flex-flow: row nowrap;
@@ -581,6 +597,8 @@ h4 {
     padding-left: 0.5rem;
   }
   .navbar-expand-md > .container {
+    padding-right: 0;
+    padding-left: 0;
     flex-wrap: nowrap;
   }
   .navbar-expand-md .navbar-collapse {
@@ -705,24 +723,7 @@ h4 {
 .mx-auto {
   margin-left: auto !important;
 }
-@media (min-width: 768px) {
-  .logos {
-    width: 150px;
-  }
-}
 @media (min-width: 992px) {
-  .logos {
-    width: 210px;
-  }
-  .logoBottom {
-    display: block !important;
-  }
-  .logoTop {
-    display: none !important;
-  }
-  .logoSmall {
-    margin-left: initial;
-  }
   .py-6 {
     padding-top: 3rem !important;
   }
