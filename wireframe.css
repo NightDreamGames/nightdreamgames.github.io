@@ -189,12 +189,12 @@ h4 {
     max-width: 1140px;
   }
   .lineRight {
-    margin-left: 24px;
+    margin-left: 20px;
     margin-right: 45px;
   }
   .lineLeft {
-    margin-left: 24px;
-    margin-right: 45px;
+    margin-left: 25px;
+    margin-right: 65px;
   }
 }
 .row {
