@@ -133,6 +133,18 @@ h4 {
 .logoSmall {
   margin-left: 20px;
 }
+.lineRight {
+  border-right: 2px solid #aaaaaa;
+  height: 160px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+.lineLeft {
+  border-left: 2px solid #aaaaaa;
+  height: 160px;
+  margin-left: 25px;
+  margin-right: 35px;
+}
 .lead {
   font-size: 1.3rem;
   font-weight: 400;
@@ -175,6 +187,14 @@ h4 {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .lineRight {
+    margin-left: 24px;
+    margin-right: 45px;
+  }
+  .lineLeft {
+    margin-left: 24px;
+    margin-right: 45px;
   }
 }
 .row {
