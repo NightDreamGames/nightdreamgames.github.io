@@ -286,10 +286,6 @@ h4 {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(205, 205, 205, 0.25);
 }
-.btn:disabled {
-  opacity: 0.65;
-  box-shadow: none;
-}
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
@@ -301,39 +297,6 @@ h4 {
 .btn:not(:disabled):not(.disabled):active:focus {
   box-shadow: 0 0 0 0.2rem rgba(205, 205, 205, 0.25),
     inset 0 3px 5px rgba(0, 0, 0, 0.125);
-}
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active {
-  color: #212529;
-  background-color: #b4b4b4;
-  border-color: #adadad;
-}
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(205, 205, 205, 0.5);
-}
-.btn-secondary:not(:disabled):not(.disabled).active,
-.btn-secondary:not(:disabled):not(.disabled):active {
-  color: #212529;
-  background-color: #979797;
-  border-color: #909090;
-}
-.btn-secondary:not(:disabled):not(.disabled).active:focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(176, 176, 176, 0.5);
-}
-.btn-success:not(:disabled):not(.disabled).active,
-.btn-success:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #1e7e34;
-  border-color: #1c7430;
-}
-.btn-success:not(:disabled):not(.disabled).active:focus,
-.btn-success:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(40, 167, 69, 0.5);
 }
 .btn-info {
   color: #fff;
@@ -351,11 +314,6 @@ h4 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
     0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(142, 142, 142, 0.5);
 }
-.btn-info:disabled {
-  color: #fff;
-  background-color: #8e8e8e;
-  border-color: #8e8e8e;
-}
 .btn-info:not(:disabled):not(.disabled).active,
 .btn-info:not(:disabled):not(.disabled):active {
   color: #fff;
@@ -366,61 +324,6 @@ h4 {
 .btn-info:not(:disabled):not(.disabled):active:focus {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
     0 0 0 0.2rem rgba(142, 142, 142, 0.5);
-}
-.btn-warning:not(:disabled):not(.disabled).active,
-.btn-warning:not(:disabled):not(.disabled):active {
-  color: #212529;
-  background-color: #d39e00;
-  border-color: #c69500;
-}
-.btn-warning:not(:disabled):not(.disabled).active:focus,
-.btn-warning:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(255, 193, 7, 0.5);
-}
-.btn-danger:not(:disabled):not(.disabled).active,
-.btn-danger:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #bd2130;
-  border-color: #b21f2d;
-}
-.btn-danger:not(:disabled):not(.disabled).active:focus,
-.btn-danger:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(220, 53, 69, 0.5);
-}
-.btn-light:not(:disabled):not(.disabled).active,
-.btn-light:not(:disabled):not(.disabled):active {
-  color: #212529;
-  background-color: #d1d1d1;
-  border-color: #cacaca;
-}
-.btn-light:not(:disabled):not(.disabled).active:focus,
-.btn-light:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(234, 234, 234, 0.5);
-}
-.btn-dark:not(:disabled):not(.disabled).active,
-.btn-dark:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #3c3c3c;
-  border-color: #353535;
-}
-.btn-dark:not(:disabled):not(.disabled).active:focus,
-.btn-dark:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(85, 85, 85, 0.5);
-}
-.btn-outline-primary:not(:disabled):not(.disabled).active,
-.btn-outline-primary:not(:disabled):not(.disabled):active {
-  color: #212529;
-  background-color: #cdcdcd;
-  border-color: #cdcdcd;
-}
-.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125),
-    0 0 0 0.2rem rgba(205, 205, 205, 0.5);
 }
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active {
