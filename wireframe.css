@@ -53,14 +53,6 @@
     margin-right: 65px;
   }
 }
-@media (min-height: 950px) {
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-}
 
 :root {
   --white: #fff;
@@ -689,4 +681,15 @@ html {
 }
 .bg-dark {
   color: #fff;
+}
+.main-content {
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 144px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
