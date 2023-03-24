@@ -127,3 +127,6 @@ yandex.com, 95746987, RESELLER
 Contextweb.com, 562842, RESELLER, 89ff185a4c4e857c
 bidease.com, exchange-20, RESELLER
 opera.com, pub6794361378752, RESELLER, 55a0c5fd61378de3
+contextweb.com, 562944, RESELLER, 89ff185a4c4e857c
+Pubmatic.com, 162882, RESELLER
+thebrave.io, 1234634, RESELLER, c25b2154543746ac
