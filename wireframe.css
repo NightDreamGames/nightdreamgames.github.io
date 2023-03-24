@@ -28,6 +28,12 @@
 	.logo {
 		width: 150px;
 	}
+	.googleBadge {
+		margin: -2% !important;
+	}
+	.appleBadge {
+		padding-left: 3%;
+	}
 }
 @media (min-width: 992px) {
 	.logo {
