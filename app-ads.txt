@@ -130,3 +130,4 @@ opera.com, pub6794361378752, RESELLER, 55a0c5fd61378de3
 contextweb.com, 562944, RESELLER, 89ff185a4c4e857c
 Pubmatic.com, 162882, RESELLER
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
+xandr.com, 13799, RESELLER
