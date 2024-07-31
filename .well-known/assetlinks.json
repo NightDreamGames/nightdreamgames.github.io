@@ -1,0 +1,32 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.NightDreamGames.Grade.ly",
+			"sha256_cert_fingerprints": [
+				"47:42:B0:17:D2:70:0C:5A:84:C1:91:06:7A:1C:C1:75:D0:3C:37:9B:43:F9:A1:6D:1C:8B:8C:24:A3:EA:BA:4E"
+			]
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.NightDreamGames.BorrSim",
+			"sha256_cert_fingerprints": [
+				"84:DC:B8:6E:6B:79:54:40:59:36:11:75:0D:71:81:26:F4:CB:8F:59:5B:CE:0F:30:B7:B3:E1:DB:0E:E7:A0:FC"
+			]
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.NightDreamGames.Escape",
+			"sha256_cert_fingerprints": [
+				"D0:02:0D:2E:F3:93:F5:E8:9C:6A:46:65:DA:F8:29:32:74:A1:89:F0:31:F7:47:D7:EF:6A:4D:87:7C:52:02:6C"
+			]
+		}
+	}
+]
